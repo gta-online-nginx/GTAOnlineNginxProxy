@@ -1,4 +1,4 @@
-1. Login as root to a blank Ubuntu server. If you purchased a server, you should have received instructions in the setup email. If you are running this from home, install Ubuntu Server in a VirtualBox VM. **Make sure to use bridged networking**. WiFi isn’t supported by this script if you do not use a VM to run Ubuntu Server.
+1. Login as root to a blank Ubuntu server. If you purchased a server, you should have received instructions in the setup email. If you are running this from home, install Ubuntu Server in a VirtualBox VM. **Make sure to use bridged networking**. WiFi isn't supported by this script if you do not use a VM to run Ubuntu Server.
 
 2. Change the current working directory to / by typing this command and pressing enter:
 
@@ -8,18 +8,18 @@
 
   wget {URL of the .zip on GitHub}
 
-(if wget isn’t installed, run “apt-get update;apt-get install wget”. Just paste everything between the quotes into the terminal window.)
+(if wget isn't installed, run "apt-get update;apt-get install wget". Just paste everything between the quotes into the terminal window.)
 
-4. Unzip the zip file you downloaded by typing this command and pressing enter. 
+4. Unzip the zip file you downloaded by typing this command and pressing enter.
 
-  unzip {name of the .zip file you downloaded. This should be shown near the end of wget’s output} 
+  unzip {name of the .zip file you downloaded. This should be shown near the end of wget's output}
 
-(if unzip isn’t installed, run “apt-get update;apt-get install unzip”. Just paste everything between the quotes into the terminal window.)
+(if unzip isn't installed, run "apt-get update;apt-get install unzip". Just paste everything between the quotes into the terminal window.)
 
 5. Run the installer script by typing this command and pressing enter:
 
   bash /install
 
-6. If you are running this behind a NAT appliance (such as a standard home router), forward ports 80/tcp and 53/udp to the eth0 IP shown when the installer finished. If you are running this on a VPS that isn’t behind NAT (such as most purchased VPSs) and the eth0 IP is blank, do not worry. 
+6. If you are running this behind a NAT appliance (such as a standard home router), forward ports 80/tcp and 53/udp to the eth0 IP shown when the installer finished. If you are running this on a VPS that isn't behind NAT (such as most purchased VPSs) and the eth0 IP is blank, do not worry.
 
-7. Set your console to use the DNS IP shown at the end of the installer’s output.
+7. Set your console to use the DNS IP shown at the end of the installer's output.
