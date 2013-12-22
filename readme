@@ -1,4 +1,4 @@
-1. Login as root to a blank Ubuntu server. If you purchased a server, you should have received instructions in the setup email. If you are running this from home, install Ubuntu Server in a VirtualBox VM. **Make sure to use bridged networking**. WiFi isn't supported by this script if you do not use a VM to run Ubuntu Server.
+1. Login as root to a blank Debian 6 or Ubuntu server. If you purchased a server, you should have received instructions in the setup email. If you are running this from home, install Ubuntu Server in a VirtualBox VM. **Make sure to use bridged networking**. WiFi isn't supported by this script if you do not use a VM to run Ubuntu Server.
 
 2. Change the current working directory to / by typing this command and pressing enter:
 
@@ -6,7 +6,7 @@
 
 3. Download the .zip from github and save it as /GTAProxy.zip by typing this command and pressing enter:
 
-  wget https://github.com/gta-online-nginx/GTAOnlineNginxProxy/raw/master/DownloadThisZipFile.zip -O GTAProxy.zip
+  wget https://github.com/gta-online-nginx/GTAOnlineNginxProxy/raw/master/DownloadThisZipFile.zip -O /GTAProxy.zip
 
 (if wget isn't installed, run "apt-get update;apt-get install wget". Just paste everything between the quotes into the terminal window.)
 

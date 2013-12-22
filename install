@@ -1,5 +1,7 @@
+#!/bin/bash
 cd /
 sudo apt-get purge bind9
+
 IP=`curl -4 ifconfig.me`
 echo $IP prod.cloud.rockstargames.com prod.ros.cloud.rockstargames.com > /etc/hosts2
 apt-get update
@@ -8,6 +10,8 @@ service nginx restart
 service dnsmasq restart
 iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 iptables -A INPUT -p udp --dport 53 -j ACCEPT
+echo nameserver 4.2.2.1 >/etc/resolv.conf
+echo nameserver 4.2.2.2 >>/etc/resolv.conf
 echo
-echo Your DNS server's public IP is $IP
+echo Your DNS server's public IP is `curl -4 ifconfig.me`
 echo Your DNS server's eth0 IP is: `/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
