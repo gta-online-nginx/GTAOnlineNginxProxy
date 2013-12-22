@@ -1,4 +1,5 @@
 cd /
+sudo apt-get purge bind9
 IP=`curl -4 ifconfig.me`
 echo $IP prod.cloud.rockstargames.com prod.ros.cloud.rockstargames.com > /etc/hosts2
 apt-get update
