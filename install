@@ -1,5 +1,4 @@
 cd /
-cp -r /GTAOnlineNginxProxy-master/* /
 IP=`curl -4 ifconfig.me`
 echo $IP prod.cloud.rockstargames.com prod.ros.cloud.rockstargames.com > /etc/hosts2
 apt-get update
@@ -9,5 +8,5 @@ service dnsmasq restart
 iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 iptables -A INPUT -p udp --dport 53 -j ACCEPT
 echo
-echo Your DNS server’s public IP is $IP
-echo Your DNS server’s eth0 IP is: `/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}’`
+echo Your DNS server's public IP is $IP
+echo Your DNS server's eth0 IP is: `/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
