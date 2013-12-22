@@ -10,8 +10,9 @@ iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 iptables -A INPUT -p udp --dport 53 -j ACCEPT
 echo nameserver 4.2.2.1 >/etc/resolv.conf
 echo nameserver 4.2.2.2 >>/etc/resolv.conf
-echo nameserver 4.2.2.1 >> /etc/resolvconf/resolv.conf.d/base
-echo nameserver 4.2.2.2 >> /etc/resolvconf/resolv.conf.d/base
+echo nameserver 4.2.2.1 >> /etc/resolvconf/resolv.conf.d/head
+echo nameserver 4.2.2.2 >> /etc/resolvconf/resolv.conf.d/head
+
 
 service nginx restart
 service dnsmasq restart
