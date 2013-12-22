@@ -1,0 +1,114 @@
+<RageCommerceData>
+	<Categories>
+		<Category id="TOP_DEFAULT">
+	</Category>
+	<Category id="Extras">
+			<Name>PACKS</Name>
+			<Desc/>
+      <CatMemberships>
+        <CatMembership id="TOP_DEFAULT"/>
+      </CatMemberships>
+	  <ImagePaths template="2"><ImagePath path="cloud:/store/images/categoryextra.dds"/></ImagePaths>	
+	</Category>	
+
+	<Category id="Cash">
+			<Name>CASH</Name>
+			<Desc/>
+      <CatMemberships>
+        <CatMembership id="TOP_DEFAULT"/>
+      </CatMemberships>
+	  <ImagePaths template="2"><ImagePath path="cloud:/store/images/categoryextra.dds"/></ImagePaths>	
+	  <PriorityTags>
+		<PriorityTag name="MP" priority="1"/>
+	  </PriorityTags>
+	</Category>	
+	
+	</Categories>
+
+	<Products>
+		<Product id="collectors_ed" platformProductId="EP1004-BLES01807_00-GTAVCOLLECTORSED" releaseTime="">
+			<Name>Collector's Edition Pack</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc></LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Editions_Collectors.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+			</CatMemberships>	
+			<ContainedPackageNames>
+				<ContainedPackageName name="dlc_collectorsedition"/>
+			</ContainedPackageNames>
+		</Product>
+		<Product id="special_ed" platformProductId="EP1004-BLES01807_00-GTAVDLCSPECIALED" releaseTime="">
+			<Name>Special Edition Pack</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc></LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Editions_Special.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+			</CatMemberships>	
+			<ContainedPackageNames>
+				<ContainedPackageName name="dlc_specialedition"/>
+			</ContainedPackageNames>
+		</Product>
+		<Product id="preorder_pack" platformProductId="EP1004-BLES01807_00-GTAVDLCATOMICBLI" releaseTime="">
+			<Name>Atomic Blimp</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc></LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Editions_Preorder.DDS"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="dlc_atomicblimp"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="cashpack_A" platformProductId="EP1004-BLES01807_00-GTAVCASHPACK000A" consumableId="EP1004-BLES01807_00-CASH01" releaseTime="">
+			<Name>Red Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc>Red Shark Cash Card - $[cash pack amount]</ShortDesc>
+			<LongDesc>Red Shark Cash Card - $[cash pack amount]</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_100.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+		<Product id="cashpack_B" platformProductId="EP1004-BLES01807_00-GTAVCASHPACK000B" consumableId="EP1004-BLES01807_00-CASH02" releaseTime="">
+			<Name>Tiger Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc>Tiger Shark Cash Card - $[cash pack amount]</ShortDesc>
+			<LongDesc>Tiger Shark Cash Card - $[cash pack amount]</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_200.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+		<Product id="cashpack_C" platformProductId="EP1004-BLES01807_00-GTAVCASHPACK000C" consumableId="EP1004-BLES01807_00-CASH03" releaseTime="">
+			<Name>Bull Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc>Bull Shark Cash Card - $[cash pack amount]</ShortDesc>
+			<LongDesc>Bull Shark Cash Card - $[cash pack amount]</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_500.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cashpack_D" platformProductId="EP1004-BLES01807_00-GTAVCASHPACK000D" consumableId="EP1004-BLES01807_00-CASH04" releaseTime="">
+			<Name>Great White Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc>Great White Shark Cash Card - $[cash pack amount]</ShortDesc>
+			<LongDesc>Great White Shark Cash Card - $[cash pack amount]</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_1250.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="35mil_cashpack" platformProductId="EP1004-BLES01807_00-GTAVCASHPACK000E" consumableId="EP1004-BLES01807_00-CASH05" releaseTime="">
+			<Name>Whale Shark Cash Card- $[cash pack amount] </Name>
+			<ShortDesc>Whale Shark Cash Card - $[cash pack amount]</ShortDesc>
+			<LongDesc>Whale Shark Cash Card - $[cash pack amount]</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_3500.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+	</Products>
+</RageCommerceData>

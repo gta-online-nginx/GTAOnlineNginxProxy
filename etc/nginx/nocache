@@ -1,0 +1,4 @@
+if_modified_since off;
+add_header Last-Modified "";
+#add_header Cache-Control "no-cache";
+add_header ETag "";

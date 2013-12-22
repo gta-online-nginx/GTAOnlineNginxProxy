@@ -1,0 +1,185 @@
+<RageCommerceData>
+	<Categories>
+		<Category id="TOP_DEFAULT">
+	</Category>
+	
+
+
+	<Category id="Extras">
+			<Name>PACKS</Name>
+			<Desc/>
+      <CatMemberships>
+        <CatMembership id="TOP_DEFAULT"/>
+      </CatMemberships>
+	  <ImagePaths template="2"><ImagePath path="cloud:/store/images/categoryextra.dds"/></ImagePaths>	
+	</Category>	
+	
+	<Category id="Cash">
+			<Name>CASH</Name>
+			<Desc/>
+      <CatMemberships>
+        <CatMembership id="TOP_DEFAULT"/>
+      </CatMemberships>
+	  <ImagePaths template="2"><ImagePath path="cloud:/store/images/categoryextra.dds"/></ImagePaths>	
+	  <PriorityTags>
+		<PriorityTag name="MP" priority="1"/>
+	  </PriorityTags>
+	</Category>	
+
+	<Category id="COMPAT_PACKS">
+			<Name>COMPATIBILITY PACKS</Name>
+			<Desc/>
+	  <ImagePaths template="2"><ImagePath path="cloud:/store/images/categoryextra.dds"/></ImagePaths>	
+	</Category>	
+	
+
+
+	</Categories>
+
+	<Products>
+		<Product id="cash_pack_A" platformProductId="0x231e0000" consumableId="0x1" releaseTime="">
+			<Name>Red Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc/>
+			<LongDesc>Cash is king in this town. Solve your money problems and help get what you want across Los Santos and Blaine County with the purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_100.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cash_pack_B" platformProductId="0xe100b800" consumableId="0x2" releaseTime="">
+			<Name>Tiger Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc/>
+			<LongDesc>Cash is king in this town. Solve your money problems and help get what you want across Los Santos and Blaine County with the purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_200.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cash_pack_C" platformProductId="0x39535400" consumableId="0x3" releaseTime="">
+			<Name>Bull Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc/>
+			<LongDesc>Cash is king in this town. Solve your money problems and help get what you want across Los Santos and Blaine County with the purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_500.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cash_pack_D" platformProductId="0x35485400" consumableId="0x4" releaseTime="">
+			<Name>Great White Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc/>
+			<LongDesc>Cash is king in this town. Solve your money problems and help get what you want across Los Santos and Blaine County with the purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_1250.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cash_pack_E" platformProductId="0xa4085c00" consumableId="0x5" releaseTime="">
+			<Name>Whale Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>Cash is king in this town. Solve your money problem and help get what you want across Los Santos and Blaine County with the occasional purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.
+
+Certain limits apply to purchase, use, and redemption. See EULA www.rockstargames.com/eula and Terms of Service www.rockstargames.com/legal for details.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_3500.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="collectors_ed" platformProductId="0x40ffb400" releaseTime="">
+			<Name>Collector's Edition Pack</Name>
+			<ShortDesc/>
+			<LongDesc>The Collector’s Edition Pack provides additional content for Grand Theft Auto V including Stunt Plane Trials, a special ability boost, additional weapons, garage property with unique vehicles, bonus outfits and tattoos, special deals from shopkeepers, access to the Atomic Blimp aircraft and custom characters for Grand Theft Auto Online.
+
+Grand Theft Auto Online specific content will become available at the launch of Grand Theft Auto Online.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Editions_Collectors.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+			</CatMemberships>	
+			<ContainedPackageNames>
+				<ContainedPackageName name="dlc_collectorsedition"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="special_ed" platformProductId="0x5f426400" releaseTime="">
+			<Name>Special Edition Pack</Name>
+			<ShortDesc/>
+			<LongDesc>The Special Edition Pack provides additional content for Grand Theft Auto V including Stunt Plane Trials, a special ability boost, additional weapons, bonus outfits and tattoos, special deals from shopkeepers and access to the Atomic Blimp aircraft.
+			</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Editions_Special.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+			</CatMemberships>	
+			<ContainedPackageNames>
+				<ContainedPackageName name="dlc_specialedition"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="atomic_blimp" platformProductId="0x43691400" releaseTime="">
+			<Name>Atomic Blimp</Name>
+			<ShortDesc/>
+			<LongDesc>With access to the Atomic Blimp, players can take control of the most leisurely aircraft in the Los Santos skies.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Editions_Preorder.DDS"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+			</CatMemberships>	
+			<ContainedPackageNames>
+				<ContainedPackageName name="dlc_atomicblimp"/>
+			</ContainedPackageNames>
+		</Product>
+		
+		<Product id="beachbum_pack" platformProductId="0x6c8a0c00" releaseTime="">
+			<Name>Beach Bum Update</Name>
+			<ShortDesc/>
+			<LongDesc>Chill out with the free Beach Bum Update featuring all new beach-inspired customization options including striped board shorts, neon short shorts, inane tribal tattoos and shaggy hair. Cruise the Great Ocean Highway in new vehicles including the Paradise beach van, Bifta dune buggy, or take to the seas in the luxurious Speeder speedboat. Compete in new activities around the beaches of Los Santos and Blaine County including new Races, Deathmatches, Parachuting, Gang Attacks and more, or totally ruin everyone’s vibe with new weapons like the brutal new broken bottle melee weapon and SNS Pistol.
+
+Add-on content, Grand Theft Auto V required to play.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Beachbum.DDS"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="MPBeach DLC"/>
+			</ContainedPackageNames>
+		</Product>
+		
+		<Product id="beachbum_pack_j" platformProductId="0xc5e84800" releaseTime="">
+			<Name>Beach Bum Update</Name>
+			<ShortDesc/>
+			<LongDesc>Chill out with the free Beach Bum Update featuring all new beach-inspired customization options including striped board shorts, neon short shorts, inane tribal tattoos and shaggy hair. Cruise the Great Ocean Highway in new vehicles including the Paradise beach van, Bifta dune buggy, or take to the seas in the luxurious Speeder speedboat. Compete in new activities around the beaches of Los Santos and Blaine County including new Races, Deathmatches, Parachuting, Gang Attacks and more, or totally ruin everyone’s vibe with new weapons like the brutal new broken bottle melee weapon and SNS Pistol.
+
+Add-on content, Grand Theft Auto V required to play.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Beachbum.DDS"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="MPBeach DLC"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="ctf_compat_pack" platformProductId="0x5e273400" releaseTime="">
+			<Name>Capture Update</Name>
+			<ShortDesc/>
+			<LongDesc>In a proper Grand Theft Auto twist on classic capture the flag, Capture mode brings territory infiltration and a new form of team-versus-team treachery into GTA Online. Up to four squads battle to steal contraband, trucks, buses and more from opponent's bases using high-speed vehicles, explosive weaponry and cunning teamwork. Shared Capture mode pits teams against each other in the fight over valuables located throughout the world.  In Vehicle Capture, teams battle to collect coveted vehicles from their rivals’ base and make a successful getaway. Craft, cooperation and team tactics are key. This free Capture update also brings a host of new jobs to GTA Online, accessible via the open world and also directly through your phone.
+
+Update content. The latest title update is required to use this content. Grand Theft Auto V required to play.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Gift_CM_Title.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpChristmas"/>
+			</ContainedPackageNames>
+		</Product>
+
+	</Products>
+
+
+</RageCommerceData>
