@@ -13,5 +13,5 @@ iptables -A INPUT -p udp --dport 53 -j ACCEPT
 echo nameserver 4.2.2.1 >/etc/resolv.conf
 echo nameserver 4.2.2.2 >>/etc/resolv.conf
 echo
-echo Your DNS server's public IP is `curl -4 ifconfig.me`
-echo Your DNS server's eth0 IP is: `/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
+echo "Your DNS server's public IP is: "`curl -4 ifconfig.me`
+echo "Your DNS server's eth0 IP is: "`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`
