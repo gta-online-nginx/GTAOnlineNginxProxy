@@ -110,12 +110,12 @@
             ],
             "XP_MULTIPLIER": [
                 {
-                    "value": 75
+                    "value": 100
                 }
             ],
             "CASH_MULTIPLIER": [
                 {
-                    "value": 1000000
+                    "value": 10000000
                 }
             ],
             "IDLEKICK_KICK": [
