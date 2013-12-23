@@ -110,12 +110,12 @@
             ],
             "XP_MULTIPLIER": [
                 {
-                    "value": 75
+                    "value": 10000
                 }
             ],
             "CASH_MULTIPLIER": [
                 {
-                    "value": 1000000
+                    "value": 99999
                 }
             ],
             "IDLEKICK_KICK": [
@@ -125,12 +125,12 @@
             ],
             "SHOP_DISCOUNT_PERCENT": [
                 {
-                    "value": 90
+                    "value": 99
                 }
             ],
             "SHOP_GOODBOY_DISCOUNT_PERCENT": [
                 {
-                    "value": 5
+                    "value": 1
                 }
             ],
             "MAX_CASH_GIFT_LIMIT": [
@@ -140,22 +140,22 @@
             ],
             "MAX_HEALTH_MULTIPLIER": [
                 {
-                    "value": 1
+                    "value": 1000000
                 }
             ],
             "MIN_HEALTH_MULTIPLIER": [
                 {
-                    "value": 1
+                    "value": 1000000
                 }
             ],
             "HEALTH_REGEN_RATE_MULTIPLIER": [
                 {
-                    "value": 1
+                    "value": 1000000
                 }
             ],
             "HEALTH_REGEN_MAX_MULTIPLIER": [
                 {
-                    "value": 1
+                    "value": 1000000
                 }
             ],
             "BADSPORT_THRESHOLD": [
@@ -280,7 +280,7 @@
             ],
             "VC_DAILY_TRANSFERS_MAX": [
                 {
-                    "value": 5000
+                    "value": 5000000000
                 }
             ],
             "MAX_BET_LIMIT": [
