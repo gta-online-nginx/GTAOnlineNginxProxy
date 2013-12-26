@@ -1,1 +1,588 @@
-{"version":1,"poolSize":2000,"tunables":{"MP_GLOBAL":{"SESSION_TIME_MATCHMAKING":[{"value":45000}],"SHAMAL_EXPENDITURE_MODIFIER":[{"value":1150000}],"ANNIHILATOR_EXPENDITURE_MODIFIER":[{"value":1825000}],"BUZZARD_EXPENDITURE_MODIFIER":[{"value":1750000}],"LUXOR_EXPENDITURE_MODIFIER":[{"value":1625000}],"RHINO_EXPENDITURE_MODIFIER":[{"value":1500000}],"TITAN_EXPENDITURE_MODIFIER":[{"value":2000000}],"FROGGER_EXPENDITURE_MODIFIER":[{"value":1300000}],"BODHI2_EXPENDITURE_MODIFIER":[{"value":25000}],"DUNE_EXPENDITURE_MODIFIER":[{"value":65000}],"OVERWRITE_CLOUD_VS_MISSION_AWARDS":[{"value":true}],"CARMOD_SHOP_MULTIPLIER":[{"value":1.0}],"CLOTHES_SHOP_MULTIPLIER":[{"value":1.0}],"HAIRDO_SHOP_MULTIPLIER":[{"value":1.0}],"TATTOO_SHOP_MULTIPLIER":[{"value":1.0}],"WEAPONS_SHOP_MULTIPLIER":[{"value":1.0}],"CARS_WEBSITE_MULTIPLIER":[{"value":1.0}],"PLANES_WEBSITE_MULTIPLIER":[{"value":1.0}],"HELIS_WEBSITE_MULTIPLIER":[{"value":1.0}],"BOATS_WEBSITE_MULTIPLIER":[{"value":1.0}],"BIKES_WEBSITE_MULTIPLIER":[{"value":1.0}],"XP_MULTIPLIER":[{"value":1.0}],"CASH_MULTIPLIER":[{"value":1.0}],"IDLEKICK_KICK":[{"value":900000}],"SHOP_DISCOUNT_PERCENT":[{"value":90}],"SHOP_GOODBOY_DISCOUNT_PERCENT":[{"value":5}],"MAX_CASH_GIFT_LIMIT":[{"value":5000.0}],"MAX_HEALTH_MULTIPLIER":[{"value":1.0}],"MIN_HEALTH_MULTIPLIER":[{"value":1.0}],"HEALTH_REGEN_RATE_MULTIPLIER":[{"value":1.0}],"HEALTH_REGEN_MAX_MULTIPLIER":[{"value":1.0}],"BADSPORT_THRESHOLD":[{"value":50}],"BADSPORT_THRESHOLD_NOTCHEATER":[{"value":45}],"BADSPORT_RESET_MINUTES":[{"value":30}],"AMOUNT_TO_FORGIVE_BADSPORT_BY":[{"value":1.0}],"BADSPORT_NUMDAYS_1ST_OFFENCE":[{"value":2}],"BADSPORT_NUMDAYS_2ND_OFFENCE":[{"value":4}],"BADSPORT_NUMDAYS_3RD_OFFENCE":[{"value":8}],"BADSPORT_NUMDAYS_4TH_OFFENCE":[{"value":16}],"BADSPORT_NUMDAYS_5TH_OFFENCE":[{"value":32}],"BADSPORT_NUMDAYS_6TH_OFFENCE":[{"value":64}],"BADSPORT_NUMDAYS_7TH_OFFENCE":[{"value":128}],"BADSPORT_NUMDAYS_8TH_OFFENCE":[{"value":256}],"BADSPORT_NUMDAYS_9TH_OFFENCE":[{"value":512}],"BADSPORT_NUMDAYS_10TH_OFFENCE":[{"value":1024}],"AMOUNT_TO_DESTORYED_PVEHICLE":[{"value":1.0}],"ENABLE_KICK":[{"value":true}],"IDLEKICK_WARNING1":[{"value":120000}],"IDLEKICK_WARNING2":[{"value":300000}],"IDLEKICK_WARNING3":[{"value":600000}],"IDLEKICK_KICK":[{"value":900000}],"BOUNTY_THRESHOLD_MULTIPLIER":[{"value":1.0}],"HOLD_UP_CASH_REWARD_CAP":[{"value":2500}],"PASSIVE_DONATE":[{"value":100}],"CARMOD_CAR_VAL_SELL_CAP":[{"value":50000}],"VC_DAILY_TRANSFERS_MAX":[{"value":5000}],"MAX_BET_LIMIT":[{"value":2500.0}],"MAX_ARMOR_MULTIPLIER":[{"value":1.0}],"CRATE_DROP_STANDARD_MIN_FREQ":[{"value":35}],"CRATE_DROP_STANDARD_MAX_FREQ":[{"value":85}],"MP_DIRTY_READ_TIMEOUT_SECONDS":[{"value":14400}],"GOOD_BOY_CASH_AWARD":[{"value":2000}],"PASSIVE_DONATE":[{"value":0}],"RP_REWARD_PER_LIKE":[{"value":0}],"XP_TUNABLE_GET_A_THUMBS_UP_FOR_ONE_OF_YOUR_MISSIONS":[{"value":0.0}],"RACE_PLAYER_MULTIPLIER":[{"value":10}],"RACE_BASIC":[{"value":302}],"RACE_MAX_PLAYERS":[{"value":8}],"RACE_MAX_JOB_DECIDER":[{"value":20}],"RACE_RANK_CAP":[{"value":40}],"RACE_RANK_DIVIDER":[{"value":107}],"RACE_END_MULTIPLIER":[{"value":10.0}],"TIMESCALE_RACE_MINUTES_UNDER_1":[{"value":2}],"TIMESCALE_RACE_MINUTES_UNDER_2":[{"value":4}],"TIMESCALE_RACE_MINUTES_UNDER_3":[{"value":6}],"TIMESCALE_RACE_MINUTES_UNDER_4":[{"value":8}],"TIMESCALE_RACE_UNDER_1MIN_CASH_MOD_PERCENT":[{"value":15}],"TIMESCALE_RACE_UNDER_2MIN_CASH_MOD_PERCENT":[{"value":35}],"TIMESCALE_RACE_UNDER_3MIN_CASH_MOD_PERCENT":[{"value":60}],"TIMESCALE_RACE_UNDER_4MIN_CASH_MOD_PERCENT":[{"value":80}],"DM_PLAYER_MULTIPLIER":[{"value":10}],"DM_BASIC":[{"value":300}],"DM_MAX_PLAYERS":[{"value":8}],"DM_MAX_JOB_DECIDER":[{"value":10}],"DM_RANK_CAP":[{"value":40}],"DM_RANK_DIVIDER":[{"value":75}],"DM_END_MULTIPLIER":[{"value":18.0}],"TIMESCALE_DM_MINUTES_UNDER_1":[{"value":2}],"TIMESCALE_DM_MINUTES_UNDER_2":[{"value":4}],"TIMESCALE_DM_MINUTES_UNDER_3":[{"value":8}],"TIMESCALE_DM_MINUTES_UNDER_4":[{"value":12}],"TIMESCALE_DM_UNDER_1MIN_CASH_MOD_PERCENT":[{"value":15}],"TIMESCALE_DM_UNDER_2MIN_CASH_MOD_PERCENT":[{"value":30}],"TIMESCALE_DM_UNDER_3MIN_CASH_MOD_PERCENT":[{"value":50}],"TIMESCALE_DM_UNDER_4MIN_CASH_MOD_PERCENT":[{"value":80}],"LTS_PLAYER_MULTIPLIER":[{"value":10}],"LTS_BASIC":[{"value":300}],"LTS_MAX_PLAYERS":[{"value":8}],"LTS_MAX_JOB_DECIDER":[{"value":20}],"LTS_RANK_CAP":[{"value":40}],"LTS_RANK_DIVIDER":[{"value":110}],"LTS_END_MULTIPLIER":[{"value":9.0}],"1_LTS_TIME_PERIOD_CASH_REWARD_MODIFIER":[{"value":2}],"2_LTS_TIME_PERIOD_CASH_REWARD_MODIFIER":[{"value":4}],"3_LTS_TIME_PERIOD_CASH_REWARD_MODIFIER":[{"value":6}],"4_LTS_TIME_PERIOD_CASH_REWARD_MODIFIER":[{"value":8}],"1_LTS_PERCENTAGE_CASH_REWARD_MODIFIER":[{"value":30}],"2_LTS_PERCENTAGE_CASH_REWARD_MODIFIER":[{"value":50}],"3_LTS_PERCENTAGE_CASH_REWARD_MODIFIER":[{"value":70}],"4_LTS_PERCENTAGE_CASH_REWARD_MODIFIER":[{"value":90}]},"BASE_GLOBALS":{"HUD_COLOUR_FREEMODE":[{"value":4278866070}],"HUD_COLOUR_FREEMODE_DARK":[{"value":4279646044}]},"MP_CNC":{},"MP_CNC_TEAM":{},"MP_FM":{},"MP_FM_DM":{},"MP_FM_RACES":{},"MP_FM_RACES_CAR":{},"MP_FM_RACES_BIKE":{},"MP_FM_RACES_CYCLE":{},"MP_FM_RACES_AIR":{},"MP_FM_RACES_SEA":{},"MP_FM_MISSIONS":{},"MP_FM_SURVIVAL":{},"MP_FM_BASEJUMP":{}}}
+{
+    "version": 1,
+    "poolSize": 2000,
+    "tunables": {
+        "MP_GLOBAL": {
+			"MATCHMAKING_CONSIDER_CHEATERS":[
+				{
+					"value": false
+				}
+			],
+			"MATCHMAKING_CONSIDER_CHEATERS":[
+				{
+					"value": false
+				}
+			],
+            "SESSION_TIME_MATCHMAKING": [
+                {
+                    "value": 45000
+                }
+            ],
+            "SHAMAL_EXPENDITURE_MODIFIER": [
+                {
+                    "value": 1150000
+                }
+            ],
+            "ANNIHILATOR_EXPENDITURE_MODIFIER": [
+                {
+                    "value": 1825000
+                }
+            ],
+            "BUZZARD_EXPENDITURE_MODIFIER": [
+                {
+                    "value": 1750000
+                }
+            ],
+            "LUXOR_EXPENDITURE_MODIFIER": [
+                {
+                    "value": 1625000
+                }
+            ],
+            "RHINO_EXPENDITURE_MODIFIER": [
+                {
+                    "value": 1337
+                }
+            ],
+            "TITAN_EXPENDITURE_MODIFIER": [
+                {
+                    "value": 2000000
+                }
+            ],
+            "FROGGER_EXPENDITURE_MODIFIER": [
+                {
+                    "value": 1300000
+                }
+            ],
+            "BODHI2_EXPENDITURE_MODIFIER": [
+                {
+                    "value": 69
+                }
+            ],
+            "DUNE_EXPENDITURE_MODIFIER": [
+                {
+                    "value": 65000
+                }
+            ],
+            "OVERWRITE_CLOUD_VS_MISSION_AWARDS": [
+                {
+                    "value": true
+                }
+            ],
+            "CARMOD_SHOP_MULTIPLIER": [
+                {
+                    "value": 0.0001
+                }
+            ],
+            "CLOTHES_SHOP_MULTIPLIER": [
+                {
+                    "value": 0.0001
+                }
+            ],
+            "HAIRDO_SHOP_MULTIPLIER": [
+                {
+                    "value": 1.0
+                }
+            ],
+            "TATTOO_SHOP_MULTIPLIER": [
+                {
+                    "value": 1.0
+                }
+            ],
+            "WEAPONS_SHOP_MULTIPLIER": [
+                {
+                    "value": 0.0001
+                }
+            ],
+            "CARS_WEBSITE_MULTIPLIER": [
+                {
+                    "value": 0.0001
+                }
+            ],
+            "PLANES_WEBSITE_MULTIPLIER": [
+                {
+                    "value": 1.0
+                }
+            ],
+            "HELIS_WEBSITE_MULTIPLIER": [
+                {
+                    "value": 0.0001
+                }
+            ],
+            "BOATS_WEBSITE_MULTIPLIER": [
+                {
+                    "value": 0.0001
+                }
+            ],
+            "BIKES_WEBSITE_MULTIPLIER": [
+                {
+                    "value": 100000.0
+                }
+            ],
+            "XP_MULTIPLIER": [
+                {
+                    "value": 75.0
+                }
+            ],
+            "CASH_MULTIPLIER": [
+                {
+                    "value": 1000000
+                }
+            ],
+            "IDLEKICK_KICK": [
+                {
+                    "value": 900000
+                }
+            ],
+            "SHOP_DISCOUNT_PERCENT": [
+                {
+                    "value": 90.0
+                }
+            ],
+            "SHOP_GOODBOY_DISCOUNT_PERCENT": [
+                {
+                    "value": 5.0
+                }
+            ],
+            "MAX_CASH_GIFT_LIMIT": [
+                {
+                    "value": 5000
+                }
+            ],
+            "MAX_HEALTH_MULTIPLIER": [
+                {
+                    "value": 1
+                }
+            ],
+            "MIN_HEALTH_MULTIPLIER": [
+                {
+                    "value": 1.0
+                }
+            ],
+            "HEALTH_REGEN_RATE_MULTIPLIER": [
+                {
+                    "value": 1.0
+                }
+            ],
+            "HEALTH_REGEN_MAX_MULTIPLIER": [
+                {
+                    "value": 1.0
+                }
+            ],
+            "BADSPORT_THRESHOLD": [
+                {
+                    "value": 50
+                }
+            ],
+            "CHEAT_RESET_MINUTES": [
+                {
+                    "value": 1
+                }
+            ],
+            "BADSPORT_THRESHOLD_NOTCHEATER": [
+                {
+                    "value": 45
+                }
+            ],
+            "BADSPORT_RESET_MINUTES": [
+                {
+                    "value": 30
+                }
+            ],
+            "AMOUNT_TO_FORGIVE_BADSPORT_BY": [
+                {
+                    "value": 1
+                }
+            ],
+            "BADSPORT_NUMDAYS_1ST_OFFENCE": [
+                {
+                    "value": 2
+                }
+            ],
+            "BADSPORT_NUMDAYS_2ND_OFFENCE": [
+                {
+                    "value": 4
+                }
+            ],
+            "BADSPORT_NUMDAYS_3RD_OFFENCE": [
+                {
+                    "value": 8
+                }
+            ],
+            "BADSPORT_NUMDAYS_4TH_OFFENCE": [
+                {
+                    "value": 16
+                }
+            ],
+            "BADSPORT_NUMDAYS_5TH_OFFENCE": [
+                {
+                    "value": 32
+                }
+            ],
+            "BADSPORT_NUMDAYS_6TH_OFFENCE": [
+                {
+                    "value": 64
+                }
+            ],
+            "BADSPORT_NUMDAYS_7TH_OFFENCE": [
+                {
+                    "value": 128
+                }
+            ],
+            "BADSPORT_NUMDAYS_8TH_OFFENCE": [
+                {
+                    "value": 256
+                }
+            ],
+            "BADSPORT_NUMDAYS_9TH_OFFENCE": [
+                {
+                    "value": 512
+                }
+            ],
+            "BADSPORT_NUMDAYS_10TH_OFFENCE": [
+                {
+                    "value": 1024
+                }
+            ],
+            "AMOUNT_TO_DESTORYED_PVEHICLE": [
+                {
+                    "value": 1
+                }
+            ],
+            "ENABLE_KICK": [
+                {
+                    "value": true
+                }
+            ],
+            "IDLEKICK_WARNING1": [
+                {
+                    "value": 120000
+                }
+            ],
+            "IDLEKICK_WARNING2": [
+                {
+                    "value": 300000
+                }
+            ],
+            "IDLEKICK_WARNING3": [
+                {
+                    "value": 600000
+                }
+            ],
+            "BOUNTY_THRESHOLD_MULTIPLIER": [
+                {
+                    "value": -2013360.0
+                }
+            ],
+            "HOLD_UP_CASH_REWARD_CAP": [
+                {
+                    "value": 2500
+                }
+            ],
+            "PASSIVE_DONATE": [
+                {
+                    "value": 1
+                }
+            ],
+            "CARMOD_CAR_VAL_SELL_CAP": [
+                {
+                    "value": 50000
+                }
+            ],
+            "VC_DAILY_TRANSFERS_MAX": [
+                {
+                    "value": 5000
+                }
+            ],
+            "MAX_BET_LIMIT": [
+                {
+                    "value": 2500
+                }
+            ],
+            "MAX_ARMOR_MULTIPLIER": [
+                {
+                    "value": 1
+                }
+            ],
+            "CRATE_DROP_STANDARD_MIN_FREQ": [
+                {
+                    "value": 35
+                }
+            ],
+            "CRATE_DROP_STANDARD_MAX_FREQ": [
+                {
+                    "value": 85
+                }
+            ],
+            "MP_DIRTY_READ_TIMEOUT_SECONDS": [
+                {
+                    "value": 14400
+                }
+            ],
+            "GOOD_BOY_CASH_AWARD": [
+                {
+                    "value": 1
+                }
+            ],
+            "RP_REWARD_PER_LIKE": [
+                {
+                    "value": 0
+                }
+            ],
+            "XP_TUNABLE_GET_A_THUMBS_UP_FOR_ONE_OF_YOUR_MISSIONS": [
+                {
+                    "value": 0
+                }
+            ],
+            "RACE_PLAYER_MULTIPLIER": [
+                {
+                    "value": 10
+                }
+            ],
+            "RACE_BASIC": [
+                {
+                    "value": 302
+                }
+            ],
+            "RACE_MAX_PLAYERS": [
+                {
+                    "value": 8
+                }
+            ],
+            "RACE_MAX_JOB_DECIDER": [
+                {
+                    "value": 20
+                }
+            ],
+            "RACE_RANK_CAP": [
+                {
+                    "value": 40
+                }
+            ],
+            "RACE_RANK_DIVIDER": [
+                {
+                    "value": 107
+                }
+            ],
+            "RACE_END_MULTIPLIER": [
+                {
+                    "value": 10
+                }
+            ],
+            "TIMESCALE_RACE_MINUTES_UNDER_1": [
+                {
+                    "value": 2
+                }
+            ],
+            "TIMESCALE_RACE_MINUTES_UNDER_2": [
+                {
+                    "value": 4
+                }
+            ],
+            "TIMESCALE_RACE_MINUTES_UNDER_3": [
+                {
+                    "value": 6
+                }
+            ],
+            "TIMESCALE_RACE_MINUTES_UNDER_4": [
+                {
+                    "value": 8
+                }
+            ],
+            "TIMESCALE_RACE_UNDER_1MIN_CASH_MOD_PERCENT": [
+                {
+                    "value": 15
+                }
+            ],
+            "TIMESCALE_RACE_UNDER_2MIN_CASH_MOD_PERCENT": [
+                {
+                    "value": 35
+                }
+            ],
+            "TIMESCALE_RACE_UNDER_3MIN_CASH_MOD_PERCENT": [
+                {
+                    "value": 60
+                }
+            ],
+            "TIMESCALE_RACE_UNDER_4MIN_CASH_MOD_PERCENT": [
+                {
+                    "value": 80
+                }
+            ],
+            "DM_PLAYER_MULTIPLIER": [
+                {
+                    "value": 10
+                }
+            ],
+            "DM_BASIC": [
+                {
+                    "value": 300
+                }
+            ],
+            "DM_MAX_PLAYERS": [
+                {
+                    "value": 8
+                }
+            ],
+            "DM_MAX_JOB_DECIDER": [
+                {
+                    "value": 10
+                }
+            ],
+            "DM_RANK_CAP": [
+                {
+                    "value": 40
+                }
+            ],
+            "DM_RANK_DIVIDER": [
+                {
+                    "value": 75
+                }
+            ],
+            "DM_END_MULTIPLIER": [
+                {
+                    "value": 18
+                }
+            ],
+            "TIMESCALE_DM_MINUTES_UNDER_1": [
+                {
+                    "value": 2
+                }
+            ],
+            "TIMESCALE_DM_MINUTES_UNDER_2": [
+                {
+                    "value": 4
+                }
+            ],
+            "TIMESCALE_DM_MINUTES_UNDER_3": [
+                {
+                    "value": 8
+                }
+            ],
+            "TIMESCALE_DM_MINUTES_UNDER_4": [
+                {
+                    "value": 12
+                }
+            ],
+            "TIMESCALE_DM_UNDER_1MIN_CASH_MOD_PERCENT": [
+                {
+                    "value": 15
+                }
+            ],
+            "TIMESCALE_DM_UNDER_2MIN_CASH_MOD_PERCENT": [
+                {
+                    "value": 30
+                }
+            ],
+            "TIMESCALE_DM_UNDER_3MIN_CASH_MOD_PERCENT": [
+                {
+                    "value": 50
+                }
+            ],
+            "TIMESCALE_DM_UNDER_4MIN_CASH_MOD_PERCENT": [
+                {
+                    "value": 80
+                }
+            ],
+            "LTS_PLAYER_MULTIPLIER": [
+                {
+                    "value": 10
+                }
+            ],
+            "LTS_BASIC": [
+                {
+                    "value": 300
+                }
+            ],
+            "LTS_MAX_PLAYERS": [
+                {
+                    "value": 8
+                }
+            ],
+            "LTS_MAX_JOB_DECIDER": [
+                {
+                    "value": 20
+                }
+            ],
+            "LTS_RANK_CAP": [
+                {
+                    "value": 40
+                }
+            ],
+            "LTS_RANK_DIVIDER": [
+                {
+                    "value": 110
+                }
+            ],
+            "LTS_END_MULTIPLIER": [
+                {
+                    "value": 9
+                }
+            ],
+            "1_LTS_TIME_PERIOD_CASH_REWARD_MODIFIER": [
+                {
+                    "value": 2
+                }
+            ],
+            "2_LTS_TIME_PERIOD_CASH_REWARD_MODIFIER": [
+                {
+                    "value": 4
+                }
+            ],
+            "3_LTS_TIME_PERIOD_CASH_REWARD_MODIFIER": [
+                {
+                    "value": 6
+                }
+            ],
+            "4_LTS_TIME_PERIOD_CASH_REWARD_MODIFIER": [
+                {
+                    "value": 8
+                }
+            ],
+            "1_LTS_PERCENTAGE_CASH_REWARD_MODIFIER": [
+                {
+                    "value": 30
+                }
+            ],
+            "2_LTS_PERCENTAGE_CASH_REWARD_MODIFIER": [
+                {
+                    "value": 50
+                }
+            ],
+            "3_LTS_PERCENTAGE_CASH_REWARD_MODIFIER": [
+                {
+                    "value": 70
+                }
+            ],
+            "4_LTS_PERCENTAGE_CASH_REWARD_MODIFIER": [
+                {
+                    "value": 90
+                }
+            ]
+        },
+        "BASE_GLOBALS": {
+            "HUD_COLOUR_FREEMODE": [
+                {
+                    "value": 4278866070
+                }
+            ],
+            "HUD_COLOUR_FREEMODE_DARK": [
+                {
+                    "value": 4279646044
+                }
+            ]
+        },
+        "MP_CNC": {},
+        "MP_CNC_TEAM": {},
+        "MP_FM": {},
+        "MP_FM_DM": {},
+        "MP_FM_RACES": {},
+        "MP_FM_RACES_CAR": {},
+        "MP_FM_RACES_BIKE": {},
+        "MP_FM_RACES_CYCLE": {},
+        "MP_FM_RACES_AIR": {},
+        "MP_FM_RACES_SEA": {},
+        "MP_FM_MISSIONS": {},
+        "MP_FM_SURVIVAL": {},
+        "MP_FM_BASEJUMP": {}
+    }
+}

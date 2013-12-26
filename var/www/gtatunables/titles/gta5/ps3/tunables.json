@@ -3,6 +3,16 @@
     "poolSize": 2000,
     "tunables": {
         "MP_GLOBAL": {
+			"MATCHMAKING_CONSIDER_CHEATERS":[
+				{
+					"value": false
+				}
+			],
+			"MATCHMAKING_CONSIDER_CHEATERS":[
+				{
+					"value": false
+				}
+			],
             "SESSION_TIME_MATCHMAKING": [
                 {
                     "value": 45000
